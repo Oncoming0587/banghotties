@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>/</loc>
-		<lastmod>2024-07-07T13:29:51+00:00</lastmod>
+		<lastmod>2024-07-07T14:51:41+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2024/06/1476.gif</image:loc>
 		</image:image>
@@ -22,36 +22,8 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/signup-de/</loc>
-		<lastmod>2024-07-07T12:36:47+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2024/06/1476.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/button-de/</loc>
-		<lastmod>2024-07-07T12:38:32+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2024/06/1476.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/home-de/</loc>
-		<lastmod>2024-07-07T12:54:21+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/4550869_tinder_application_world_boy_dating_icon-qpvf9gf2sr367k9elhrlyl7zix8q4p579ihll0t9z4.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/front-de/</loc>
-		<lastmod>2024-07-07T13:21:29+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2024/06/1476.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/home/</loc>
-		<lastmod>2024-07-07T13:45:09+00:00</lastmod>
+		<lastmod>2024-07-07T14:52:53+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/elementor/thumbs/4550869_tinder_application_world_boy_dating_icon-qpvf9gf2f5o1ybph67ot5eosq1gf8oglg1dbpel68a.png</image:loc>
 		</image:image>
