@@ -1,4 +1,4 @@
-/*! elementor - v3.24.0 - 15-10-2024 */
+/*! elementor - v3.25.0 - 20-11-2024 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -2176,6 +2176,14 @@ var _module3 = _interopRequireDefault(__webpack_require__(/*! elementor/modules/
         elementorCommon.ajax.addRequest('elementor_image_optimization_campaign', {
           data: {
             source: 'io-esetting-addons-install'
+          }
+        });
+      });
+      $('.e-notice--cta.e-notice--dismissible[data-notice_id="site_mailer_promotion"] a.e-button--cta').on('click', function () {
+        var isWcNotice = $(this).closest('.e-notice').hasClass('sm-notice-wc');
+        elementorCommon.ajax.addRequest('elementor_core_site_mailer_campaign', {
+          data: {
+            source: isWcNotice ? 'sm-core-woo-install' : 'sm-core-form-install'
           }
         });
       });
