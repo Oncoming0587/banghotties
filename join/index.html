@@ -14,7 +14,7 @@
 	<meta property="og:description" content="Warning &#8211; Not a dating site! Exclusive Sex Contact Network You&#8217;re entitled for free access! Access to hot chicks online [&hellip;]">
 	<meta property="og:url" content="/join/">
 	<meta property="og:site_name" content="Bang Hotties!">
-	<meta property="article:modified_time" content="2025-02-04T02:07:23+00:00">
+	<meta property="article:modified_time" content="2025-02-04T06:24:16+00:00">
 	<meta property="og:image" content="/wp-content/uploads/2024/12/fb-sweet-shadow.png">
 	<meta property="og:image:width" content="1000">
 	<meta property="og:image:height" content="1000">
@@ -22,7 +22,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:label1" content="Est. reading time">
 	<meta name="twitter:data1" content="2 minutes">
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"/join/","url":"/join/","name":"(1) ~ Bang Hotties!","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/join/#primaryimage"},"image":{"@id":"/join/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","datePublished":"2024-12-07T04:42:24+00:00","dateModified":"2025-02-04T02:07:23+00:00","breadcrumb":{"@id":"/join/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["/join/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"/join/#primaryimage","url":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","contentUrl":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","width":1000,"height":1000},{"@type":"BreadcrumbList","@id":"/join/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"(1)"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Bang Hotties!","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Bang Hotties!","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"/wp-content/uploads/2024/06/4550869_tinder_application_world_boy_dating_icon.png","contentUrl":"/wp-content/uploads/2024/06/4550869_tinder_application_world_boy_dating_icon.png","width":512,"height":512,"caption":"Bang Hotties!"},"image":{"@id":"/#/schema/logo/image/"}}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"/join/","url":"/join/","name":"(1) ~ Bang Hotties!","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/join/#primaryimage"},"image":{"@id":"/join/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","datePublished":"2024-12-07T04:42:24+00:00","dateModified":"2025-02-04T06:24:16+00:00","breadcrumb":{"@id":"/join/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["/join/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"/join/#primaryimage","url":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","contentUrl":"/wp-content/uploads/2024/12/fb-sweet-shadow.png","width":1000,"height":1000},{"@type":"BreadcrumbList","@id":"/join/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"(1)"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Bang Hotties!","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Bang Hotties!","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"/wp-content/uploads/2024/06/4550869_tinder_application_world_boy_dating_icon.png","contentUrl":"/wp-content/uploads/2024/06/4550869_tinder_application_world_boy_dating_icon.png","width":512,"height":512,"caption":"Bang Hotties!"},"image":{"@id":"/#/schema/logo/image/"}}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -348,6 +348,42 @@ flexibility(document.documentElement);
 });</script>
 
 </div>
+<script type="text/javascript">
+    var monOffre = "joined"; //nom identifiant unique de l'offre (à changer pour chaque nouvelle offre, pour avoir un cookie différent à chaque offre)
+
+    //url de la page X vers laquelle on redirige s'il est déjà inscrit. 
+    //On peut mettre aussi une url complète du type http://www.monsite.com/toto.html 
+    var urlPageX = "/joined/"; 
+
+     //On regarde si le cookie existe
+    function lireCookie(nom) {
+            var nomEQ = nom + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                    var c = ca[i];
+                    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                    if (c.indexOf(nomEQ) == 0) {
+                            return c.substring(nomEQ.length,c.length); // S'il existe on retourne son nom
+                    }
+            }
+            return null; //S'il n'existe pas on retourne null.
+    }
+
+    //On crée la fonction qui check si le cookie existe
+    function checkCookie(nomCookie,urlpage){
+            //Si le cookie existe, alors on redirige vers la page X
+            var monCookie = lireCookie(nomCookie);
+            if(monCookie == nomCookie){
+                    document.location.href= urlpage;
+            } 
+            //Sinon on ne fait rien
+    }
+    
+    //On lance la fonction pour checker le cookie au chargement de la page
+    checkCookie(monOffre,urlPageX);
+</script>
+<meta http-equiv="refresh" content="60;url=https://makemekinky.com/5L5htgnN?aid=xPSPhPVcT&kid=FVcSxYhTP">
+
 				</div>
 				</div>
 					</div>
